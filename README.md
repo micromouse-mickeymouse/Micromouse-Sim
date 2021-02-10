@@ -14,4 +14,4 @@ To see more infomation on how to get setup with generic C-MMS look here: [c-mms]
 
 ### Example of my personal setup for the simulator ###
 
-![](https://github.com/micromouse-mickeymouse/Micromouse-Sim/blob/master/example-setup.png)
+![](https://github.com/micromouse-mickeymouse/Micromouse-Sim/blob/main/example-setup.png?raw=true)
