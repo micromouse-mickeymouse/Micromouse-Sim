@@ -1,0 +1,26 @@
+flood_fill(flood_map, goal_positions):
+	# Reset the flood map so each value is -1
+	flood_map.fill(-1)
+    
+    # Set each goal position to 0
+    for each goal_position in goal_positions:
+      flood_map[goal_positon] = 0
+      
+    # Use a queue to traverse the entire map  
+    queue.add(goal_position)
+    
+    # While the queue is not empty we are not finished traversing
+    while queue is not empty:
+    	
+    	current_coordinate = queue.pop()
+        
+        # For each coordinate north, south, east, or west of the current one
+        for each surrounding_coordinate:
+        	# Check we can travel to it using the mazemap
+        	if surrounding_coordinate is accsessable:
+            	# If the coordinate in question has not been filled in yet
+            	if surrounding_coordinate == -1:
+                	# Fill the coordinate with a number 1 higher than the current coord
+            		surrounding_coordinate = flood_map[current_coordinate] + 1
+                    # Add to the queue to proccesss more of the map
+                	queue.add(surrounding_coordinate)
